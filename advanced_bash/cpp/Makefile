@@ -4,7 +4,7 @@ build:
 	g++ main.cpp -o myApp
 
 run:
-	./myApp 1> output.log 2> error.log
+	./myApp
 
 debug:
 	./run.sh
